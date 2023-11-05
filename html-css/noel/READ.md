@@ -1,1 +1,0 @@
-test project to familiarized git
