@@ -1,8 +1,25 @@
+div {
+    background-color: rgb(212, 208, 208);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    padding: 5px; 
+}
+
+.container {
+    display: grid;
+    grid-template-rows: minmax(0, 1fr);
+    height: 96vh;
+    grid-template-columns: 2fr 8fr;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-gap: 1em;
+}
+
 body {
-    background-color: lightblue;
-    }
-    
-    h1 {
-    color: navy;
-    margin-left: 20px;
-    }
+    background-color: rgb(212, 208, 208);
+}
