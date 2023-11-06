@@ -23,3 +23,18 @@ div {
 body {
     background-color: rgb(212, 208, 208);
 }
+
+nav ul {
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr 1fr;
+}
+
+/* .list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   } */
+   
+   .list li {
+    /* display: inline-block; */
+    list-style-type: none;
+   }
