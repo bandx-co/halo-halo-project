@@ -4,86 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>MockPage</title>
+    <script src="https://kit.fontawesome.com/2d1ed997e5.js" crossorigin="anonymous"></script>    <title>MockPage</title>
 </head>
 <body>
 
     <div class="container">
-        <div class="aside">
-            <h3>Pages</h3>
-        <form name="pages">
-            <label for="pages">Pages</label>
-            <select name="pages" id="pages">
-                <option value="page 1">Page 1</option>
-                <option value="page 2">Page 2</option>
-                <option value="page 3">Page 3</option>
-                <option value="page 4">Page 4</option>
-            </select>
-        </form>
+            <aside>
+                
+                <h2 class="halo">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    Halo-Halo Project
+                </h2>
+    
+                <h2 class="dashboard">Dashboards</h2>
+    
+                <h3>Pages</h3>
+            <!-- <form name="pages">
+                <span class="aside-icon"><i class="fa-solid fa-file-lines"></i></span>
+                <label for="pages">Pages</label>
+                <select name="pages" id="pages">
+                    <option value="page 1">Pages</option>
+                    <option value="page 2">Page 2</option>
+                    <option value="page 3">Page 3</option>
+                    <option value="page 4">Page 4</option>
+                </select>
+            </form> -->
+        
+                <button class="dropdown-btn">
+                    <i class="fa-solid fa-file-lines"></i>
+                    Pages
+                    <i class="fa fa-caret-down"></i>
+                    <div class="pages-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </button>
+            
+            <!-- <form name="applications">
+                <span class="aside-icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                <label for="application">Applications</label>
+                <select name="pages" id="pages">
+                    <option value="app 1">Applications</option>
+                    <option value="app 2">Application 2</option>
+                    <option value="app 3">Application 3</option>
+                    <option value="app 4">Application 4</option>
+                </select>
+            </form> -->
+            <button class="dropdown-btn">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                Applications
+                <i class="fa fa-caret-down"></i>
+                <div class="applications-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </button>
+    
+            <!-- <form name="ecomm">
+                <span class="aside-icon"><i class="fa-solid fa-store"></i></span>
+                <label for="ecomm">Ecommerce</label>
+                <select name="ecomm" id="ecomm">
+                    <option value="ecomm 1">Ecommerce</option>
+                    <option value="ecomm 2">Ecommerce 2</option>
+                    <option value="ecomm 3">Ecommerce 3</option>
+                    <option value="ecomm 4">Ecommerce 4</option>
+                </select>
+            </form> -->
+            <button class="dropdown-btn">
+                <i class="fa-solid fa-store"></i>
+                Ecommerce
+                <i class="fa fa-caret-down"></i>
+                <div class="e-comm">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </button>
+    
+            <!-- <form name="auth">
+                <span class="aside-icon"><i class="fa-solid fa-file-lines"></i></span>
+                <label for="auth">Authentication</label>
+                <select name="auth" id="auth">
+                    <option value="auth 1">Authentication</option>
+                    <option value="auth 2">Authentication 2</option>
+                    <option value="auth 3">Authentication 3</option>
+                    <option value="auth 4">Authentication 4</option>
+                </select>
+            </form> -->
+            <button class="dropdown-btn">
+                <i class="fa-solid fa-file-lines"></i>
+                Authentication
+                <i class="fa fa-caret-down"></i>
+                <div class="authen">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </button>
+            <hr>
+            <h3>Docs</h3>
+            <!-- <form name="basic">
+                <span class="aside-icon"><i class="fa-solid fa-rocket"></i></span>
+                <label for="basic">Basic</label>
+                <select name="basic" id="basic">
+                    <option value="basic 1">Basic</option>
+                    <option value="basic 2">Basic 2</option>
+                    <option value="basic 3">Basic 3</option>
+                    <option value="basic 4">Basic 4</option>
+                </select>
+            </form>
+    
+            <form name="components">
+                <span class="aside-icon"><i class="fa-brands fa-stack-exchange"></i></span>
+                <label for="components">Components</label>
+                <select name="components" id="components">
+                    <option value="components 1">Components</option>
+                    <option value="components 2">Components 2</option>
+                    <option value="components 3">Components 3</option>
+                    <option value="apcomponentsp 4">Components 4</option>
+                </select>
+            </form>
+    
+            <form name="log">
+                <span class="aside-icon"><i class="fa-solid fa-clipboard"></i></span>
+                <label for="log">Change Log</label>
+                <select name="log" id="log">
+                    <option value="log 1">Change Log</option>
+                    <option value="log 2">Change Log 2</option>
+                    <option value="log 3">Change Log 3</option>
+                    <option value="log 4">Change Log 4</option>
+                </select>
+            </form> -->
+            <button class="dropdown-btn">
+                <i class="fa-solid fa-rocket"></i>
+                Basic
+                <i class="fa fa-caret-down"></i>
+                <div class="basic-link">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </button>
 
-        <form name="applications">
-            <label for="application">Applications</label>
-            <select name="pages" id="pages">
-                <option value="app 1">Application 1</option>
-                <option value="app 2">Application 2</option>
-                <option value="app 3">Application 3</option>
-                <option value="app 4">Application 4</option>
-            </select>
-        </form>
+            <button class="dropdown-btn">
+                <i class="fa-brands fa-stack-exchange"></i>
+                Components
+                <i class="fa fa-caret-down"></i>
+                <div class="basic-link">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </button>
 
-        <form name="ecomm">
-            <label for="ecomm">Ecommerce</label>
-            <select name="ecomm" id="ecomm">
-                <option value="ecomm 1">Ecommerce 1</option>
-                <option value="ecomm 2">Ecommerce 2</option>
-                <option value="ecomm 3">Ecommerce 3</option>
-                <option value="ecomm 4">Ecommerce 4</option>
-            </select>
-        </form>
+            <button class="dropdown-btn">
+                <i class="fa-solid fa-clipboard"></i>
+                Logs
+                <i class="fa fa-caret-down"></i>
+                <div class="basic-link">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </button>
 
-        <form name="auth">
-            <label for="auth">Authentication</label>
-            <select name="auth" id="auth">
-                <option value="auth 1">Authentication 1</option>
-                <option value="auth 2">Authentication 2</option>
-                <option value="auth 3">Authentication 3</option>
-                <option value="auth 4">Authentication 4</option>
-            </select>
-        </form>
-
-        <hr>
-        <h3>Docs</h3>
-        <form name="basic">
-            <label for="basic">Basic</label>
-            <select name="basic" id="basic">
-                <option value="basic 1">Basic 1</option>
-                <option value="basic 2">Basic 2</option>
-                <option value="basic 3">Basic 3</option>
-                <option value="basic 4">Basic 4</option>
-            </select>
-        </form>
-
-        <form name="components">
-            <label for="components">Components</label>
-            <select name="components" id="components">
-                <option value="components 1">Components 1</option>
-                <option value="components 2">Components 2</option>
-                <option value="components 3">Components 3</option>
-                <option value="apcomponentsp 4">Components 4</option>
-            </select>
-        </form>
-
-        <form name="log">
-            <label for="log">Change Log</label>
-            <select name="log" id="log">
-                <option value="log 1">Change Log 1</option>
-                <option value="log 2">Change Log 2</option>
-                <option value="log 3">Change Log 3</option>
-                <option value="log 4">Change Log 4</option>
-            </select>
-        </form>
-        </div>
-        <div class="main">
+            </aside>
+    
+   
+    <div class="main">
             <div class="header">
                 <nav class="navbar">
                     <ul class="list">
@@ -91,21 +181,29 @@
                            <li>
                                 <form>
                                     <input type="search" placeholder="Search">
+                                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
                                 </form>
                            </li>
-                            <li><a href="#">Sign in</a></li>
-                            <li><a href="#">Settings</a></li>
-                            <li><a href="#">Notifications</a></li>
+                            <li><a href="#"><i class="fa-solid fa-user"></i>Sign in</a></li>
+                            <li><a href="#"><i class="fa-solid fa-gear"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
                     </ul>
                 </nav>
                 
             </div>
             <div class="main-content">
-                <h2>General Statistics</h2>
+                <h1>General Statistics</h1>
             </div>
             <div class="footer">
                 <footer>
-                    &copy; 2023 i &hearts; HTML
+                    <span class="footer-left">&copy; 2023, i &hearts; HTML, Learn the Basic..</span>
+                    <span class="footer-right">
+                        <a href="#">Creative taller</a>
+                        <a href="#">About us</a>
+                        <a href="#">Blog</a>
+                        <a href="#">License</a>
+
+                    </span>
                 </footer>
             </div>
         </div>
