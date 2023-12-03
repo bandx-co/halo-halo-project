@@ -1,0 +1,89 @@
+div {
+    background-color: #F7F9FB;
+    border-width: 2px;
+    margin: 5px;
+    padding: 5px; 
+}
+
+.main-content {
+    background-image: url("bgimage.png");
+}
+.container {
+    display: grid;
+    grid-template-rows: minmax(0, 1fr);
+    height: 96vh;
+    grid-template-columns: 2fr 8fr;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-gap: 1em;
+}
+
+body {
+    background-color: rgb(212, 208, 208);
+    font-family: Roboto, Helvetica, Arial;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr 1fr;
+}
+
+   
+   .list li {
+    list-style-type: none;
+   }
+
+   form {
+    margin: 10px;
+    padding-bottom: 20px;
+   }
+
+   .dashboard {
+    text-align: center;
+    margin: 1px;
+    box-shadow: 1px;
+   }
+   
+/* Aside */
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #0e0d0d;
+    display: block;
+    border: none;
+    background: none;
+    width:70%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+  .dropdown-btn:hover{
+    font-size: 20px;
+  }
+
+  .pages-content, .applications-content, .e-comm, .authen, .basic-link {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  .footer-right {
+    float: right;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  aside hr {
+    width: 70%; 
+    float: left;
+  }
